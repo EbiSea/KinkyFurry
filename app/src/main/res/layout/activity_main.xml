@@ -19,7 +19,7 @@
 
     <TableRow
         android:id="@+id/gh1"
-        android:layout_width="330dp"
+        android:layout_width="match_parent"
         android:layout_height="428dp"
         android:layout_weight="1"
         android:background=""
@@ -32,20 +32,20 @@
             android:id="@+id/gh_ic1"
             android:layout_width="151dp"
             android:layout_height="fill_parent"
-            app:srcCompat="@drawable/ic_gh" />
+            app:srcCompat="@drawable/cocak" />
 
         <TextView
             android:id="@+id/gh_t1"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
-            android:text=""
+            android:text="@string/prod_1"
             android:textSize="18sp" />
     </TableRow>
 
     <TableRow
         android:id="@+id/gh2"
-        android:layout_width="330dp"
+        android:layout_width="match_parent"
         android:layout_height="428dp"
         android:layout_weight="1"
         android:background=""
@@ -59,20 +59,20 @@
             android:id="@+id/gh_ic2"
             android:layout_width="151dp"
             android:layout_height="fill_parent"
-            app:srcCompat="@drawable/ic_gh" />
+            app:srcCompat="@drawable/ttg" />
 
         <TextView
             android:id="@+id/gh_t2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
-            android:text=""
+            android:text="@string/prod_2"
             android:textSize="18sp" />
     </TableRow>
 
     <TableRow
         android:id="@+id/gh3"
-        android:layout_width="330dp"
+        android:layout_width="match_parent"
         android:layout_height="428dp"
         android:layout_weight="1"
         android:background=""
@@ -85,14 +85,14 @@
             android:id="@+id/gh_ic3"
             android:layout_width="151dp"
             android:layout_height="fill_parent"
-            app:srcCompat="@drawable/ic_gh" />
+            app:srcCompat="@drawable/cb" />
 
         <TextView
             android:id="@+id/gh_t3"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
-            android:text=""
+            android:text="@string/prod_3"
             android:textSize="18sp" />
 
     </TableRow>
