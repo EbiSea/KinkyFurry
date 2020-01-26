@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TableLayout;
 import android.widget.TableRow;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -31,8 +30,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (arg0.getId()) {
             case R.id.item1:
 
+                Intent intent1 = new Intent(this, PaymentOptionItem1.class);
+                startActivity(intent1);
+
                 break;
             case R.id.item2:
+
+                Intent intent2 = new Intent(this, PaymentOptionItem2.class);
+                startActivity(intent2);
+
 
                 break;
             case R.id.item3:
